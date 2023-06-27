@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   const licenseBadges = {
-    'MIT': 'https://img.shields.io/badge/License-MIT-yellow.svg)',
+    'MIT': 'https://img.shields.io/badge/License-MIT-yellow.svg',
     'Apache': 'https://img.shields.io/badge/License-Apache_2.0-blue.svg',
     'GNU': 'https://img.shields.io/badge/License-GPLv3-blue.svg',
     'Eclipse': 'https://img.shields.io/badge/License-EPL_1.0-red.svg'
