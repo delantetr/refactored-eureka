@@ -14,7 +14,7 @@ inquirer
         },
         {
             type: 'input',
-            name: 'desciption',
+            name: 'description',
             message: 'Provide a short description of your project'
         },
         {
@@ -45,9 +45,9 @@ inquirer
         }
     ])
     .then((answers) => {
-        console.log(answers);
+        console.log('Prompt Answers: ' + answers);
         const readmeContent = generateMarkdown(answers);
-        console.log(generateMarkdown(answers));
+        console.log('Generated README: ' + generateMarkdown(answers));
     
 
 // TODO: Create a function to write README file
