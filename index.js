@@ -39,7 +39,7 @@ inquirer
         },
         {
             type: 'list',
-            name: 'licence',
+            name: 'license',
             message: 'Choose your licence:',
             choices: ['MIT', 'Apache', 'GNU', 'Eclipse']
         }

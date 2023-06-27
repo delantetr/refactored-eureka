@@ -37,11 +37,11 @@ function generateMarkdown(answers) {
   ${answers.usage}
 
   ## Credits
-  ${answers.credit}
+  ${answers.credits}
 
   ## License
   ${answers.license}
-  
+
   ## How to Contribute
   ## Tests
   ## Questions
