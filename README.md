@@ -18,7 +18,7 @@
   N/A
 
   ## Usage
-  Will be added later.
+  ![alt text](./assets/Challenge-9-GIF.gif)
 
   ## License
   MIT
