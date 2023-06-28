@@ -19,11 +19,6 @@ inquirer
         },
         {
             type: 'input',
-            name: 'toc',
-            message: 'Provide a Table of Contents. (N/A if not needed)'
-        },
-        {
-            type: 'input',
             name: 'installation',
             message: 'What are the steps required for install? (N/A if not needed)'
         },
@@ -34,8 +29,13 @@ inquirer
         },
         {
             type: 'input',
-            name: 'credits',
+            name: 'questions',
             message: 'What is your GitHub repo link?'
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email?'
         },
         {
             type: 'list',
